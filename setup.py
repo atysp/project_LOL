@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="scouting",
+    name="project_LOL",
     version="1.0",
-    packages=["scouting" ,"scouting.pylol"],
+    packages=find_packages(),
     install_requires=[
         "numpy", "pandas", "requests", "bs4", "plotly", "scipy", "pickle", "logging", "requests", "time", "typing"
     ],
