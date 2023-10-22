@@ -5,6 +5,6 @@ setup(
     version="1.0",
     packages=["scouting" ,"scouting.pylol"],
     install_requires=[
-        "numpy", "pandas", "requests", "bs4", "plotly", "scipy", "logging", "requests", "time", "typing"
+        "numpy", "pandas", "requests", "bs4", "plotly", "scipy"
     ],
 )

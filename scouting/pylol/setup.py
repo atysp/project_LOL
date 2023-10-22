@@ -11,8 +11,8 @@ setup(
         author_email="n/a",
         description=description,
         long_description=long_description,
-        packages=find_packages(),
-        install_requires=["logging", "requests", "time", "typing"],
+        packages=["pylol"],
+        install_requires=["requests"],
         keywords=["python", "league-of-legends", "lol", "riot", "endpoints"],
         classifiers= [
             "Development Status :: 3 - Alpha",
