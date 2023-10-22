@@ -1,41 +1,40 @@
-DOCUMENT D'EXPLICATION DU DOSSIER SCOUTING
+# Scouting Analysis Documentation
 
-A. Notebooks
+## A. Notebooks
 
-1. analyse_v1.ipynb
+### 1. analyse_v1.ipynb
 
-BUT:
-Sélectionner des variables pertinentes pour créer des méta-indicateurs (KPI) décrivant le style de jeu d'un joueur. 
+**Objective:**
+Select relevant variables to create meta-indicators (KPIs) describing a player's gameplay style.
 
-ANALYSE:
-Les KPIs incluent les performances individuelles, la vision et le contrôle de la carte, les objectifs et la stratégie, l'adaptabilité (champions pool), la communication et la coopération. Pour visualiser ces KPIs, des graphiques en forme de radar ont été proposés, permettant une représentation visuelle globale des forces et faiblesses du joueur dans chaque domaine.
+**Analysis:**
+The KPIs include individual performance, map awareness and control, objectives and strategy, adaptability (champion pool), communication, and cooperation. Radar charts are proposed to visualize these KPIs, allowing for a comprehensive visual representation of a player's strengths and weaknesses in each area.
 
-2. analyse_v2.ipynb
+### 2. analyse_v2.ipynb
 
-BUT:
-Établir une liste restreinte d'une dizaine de métriques qui reflètent le niveau du joueur dans la partie.
+**Objective:**
+Establish a shortlist of about ten metrics that reflect the player's level in the game.
 
-3. analyse_player.ipynb
+### 3. analyse_player.ipynb
 
-BUT : 
-Déterminer un coefficient de corrélation pour chacune des 11 métriques utilisées en utilisant la corrélation avec la victoire.
-Standardiser chaque colonne en soustrayant la moyenne et en divisant par l'écart-type.
-Multiplier les valeurs standardisées par le coefficient de corrélation correspondant, puis additionner les valeurs de la ligne et diviser par la somme des corrélations. 
+**Objective:**
+Determine a correlation coefficient for each of the 11 metrics used by correlating them with victory. Standardize each column by subtracting the mean and dividing by the standard deviation. Multiply the standardized values by the corresponding correlation coefficient, then sum the values in the row and divide by the sum of correlations.
 
-ANALYSE :
-Cela donne un nombre qui représente la performance relative du joueur sur la partie.
+**Analysis:**
+This yields a number representing the player's relative performance in the game.
 
-B. Pylol
+## B. Pylol
 
-1. Creation_table_v2.py
+### 1. Creation_table_v2.py
 
-BUT : 
-Scrapper les 100*n derniers match d'un joueur à partir de son nom d'invocateur (summoner name).
+**Objective:**
+Scrape the last 100*n matches of a player based on their summoner name.
 
-2. aggregation_dataset.py 
+### 2. aggregation_dataset.py
 
-BUT : 
-Parcourir les fichiers pickle de données dans un dossier, fusionner les datasets et supprimer les doublons.
+**Objective:**
+Browse the pickle data files in a folder, merge datasets, and remove duplicates.
+
 
 
 
