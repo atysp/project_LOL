@@ -30,6 +30,19 @@ This yields a number representing the player's relative performance in the game.
 **Objective:**
 Scrape the last 100*n matches of a player based on their summoner name.
 
+##### Running the Script "Creation_table_v2.py"
+
+To run the script "Creation_table_v2.py" for your project, follow these steps:
+- Open your terminal or command prompt.
+- Change the directory to the "pylol" folder using the `cd` command. Here's an example:
+   ```bash
+   cd scouting/pylol
+   ```
+- Run the script "Creation_table_v2.py" using Python. Here's the command:
+   ```bash
+    python src/creation_table_v2.py
+   ```
+
 ### 2. aggregation_dataset.py
 
 **Objective:**
